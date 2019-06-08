@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:background="#e27d60">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where are you heading?"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sanFrancisco"
+        android:text="San Francisco"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:backgroundTint="#e7717d"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="oakland"-->
+        <!--android:text="Oakland"-->
+        <!--android:textColor="#000000"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="berkeley"-->
+        <!--android:text="Berkeley"-->
+        <!--android:textColor="#000000"/>-->
+
+
+
+</LinearLayout>
